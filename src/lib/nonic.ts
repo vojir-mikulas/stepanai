@@ -39,7 +39,7 @@ function buildNic(): string {
   return "n" + repeat("i", 1, 6) + "c" + (chance(0.5) ? repeat("c", 0, 4) : "");
 }
 
-const SUFFIXES = ["", "", "?", "...", "!!!", " 😐", " 🙅", " fr", " ngl"];
+const SUFFIXES = [""];
 
 // Occasionally stepesAI is genuinely impressed.
 function buildGenialni(): string {
