@@ -17,6 +17,7 @@ const CLASSICS = [
   "nnoooooo nic",
   "n o   n i c",
   "nonononic",
+  
 ];
 
 function buildNo(): string {
@@ -25,8 +26,7 @@ function buildNo(): string {
     "n" + repeat("o", 2, 100),
     "no no",
     "nono",
-    "naah",
-    "nuh uh",
+    "ňoooo",
     "n" + repeat("o", 1, 3) + "pe",
   ]);
 }
