@@ -1,13 +1,13 @@
-import { useChats } from "@/hooks/useChats"
-import { useTheme } from "@/hooks/useTheme"
-import { Sidebar } from "@/components/Sidebar"
-import { ChatView } from "@/components/ChatView"
-import { Button } from "@/components/ui/button"
+import { useChats } from "@/hooks/useChats";
+import { useTheme } from "@/hooks/useTheme";
+import { Sidebar } from "@/components/Sidebar";
+import { ChatView } from "@/components/ChatView";
+import { Button } from "@/components/ui/button";
 
 export default function App() {
-  const chats = useChats()
-  const { theme, toggle } = useTheme()
-  const { active } = chats
+  const chats = useChats();
+  const { theme, toggle } = useTheme();
+  const { active } = chats;
 
   return (
     <div className="flex h-screen w-screen overflow-hidden bg-background text-foreground">
@@ -38,15 +38,15 @@ export default function App() {
         ) : (
           <div className="flex h-full flex-col items-center justify-center gap-4 text-center">
             <div>
-              <h1 className="text-2xl font-semibold tracking-tight">stepesAI</h1>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Start a new chat to receive timeless wisdom.
-              </p>
+              <h1 className="text-2xl font-semibold tracking-tight">
+                stepesAI
+              </h1>
+              <p className="mt-1 text-sm text-muted-foreground">ngr ngr ngr</p>
             </div>
             <Button onClick={chats.newChat}>New chat</Button>
           </div>
         )}
       </main>
     </div>
-  )
+  );
 }
