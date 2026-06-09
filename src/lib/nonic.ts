@@ -22,7 +22,7 @@ const CLASSICS = [
 function buildNo(): string {
   return pick([
     "no",
-    "n" + repeat("o", 2, 5),
+    "n" + repeat("o", 2, 100),
     "no no",
     "nono",
     "naah",
